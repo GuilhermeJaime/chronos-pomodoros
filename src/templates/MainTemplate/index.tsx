@@ -3,7 +3,6 @@
 import { Container } from '../../components/Container';
 import { Logo } from '../../components/Logo';
 import { Menu } from '../../components/Menu';
-import { MainForm } from '../../components/MainForm';
 import { Footer } from '../../components/Footer';
 
 
@@ -23,11 +22,11 @@ export function MainTemplate({ children }: MainTemplateProps) {
 
     {children}
 
-      <Container>
-        <MainForm />
-      </Container>
+  
 
-      <Footer />
+      <Container>
+        <Footer />
+      </Container>
     </>
   );
 }
